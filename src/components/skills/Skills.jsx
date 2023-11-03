@@ -78,7 +78,7 @@ const Skills = () => {
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <div className="mb-2">
-                <img src="/assets/img/node.png" width="120" height="50" />
+                <img src="/assets/img/node.png"/>
               </div>
               <h3 className="h4 mb-2">Node Js</h3>
             </div>
@@ -86,7 +86,7 @@ const Skills = () => {
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <div className="mb-2">
-                <img src="/assets/img/github.png" width="120" height="50" />
+                <img src="/assets/img/github.png" />
               </div>
               <h3 className="h4 mb-2">Github</h3>
             </div>
@@ -94,7 +94,7 @@ const Skills = () => {
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <div className="mb-2">
-                <img src="/assets/img/php.png" width="120" height="50" />
+                <img src="/assets/img/php.png"/>
               </div>
               <h3 className="h4 mb-2">PHP</h3>
             </div>
@@ -102,7 +102,7 @@ const Skills = () => {
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <div className="mb-2">
-                <img src="/assets/img/wordpress.png" width="120" height="50" />
+                <img src="/assets/img/wordpress.png" />
               </div>
               <h3 className="h4 mb-2">WORDPRESS</h3>
             </div>
