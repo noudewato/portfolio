@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { MyProjects } from "./project";
 import { FaDesktop, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
+  const [more, setMore] = useState(false);
   return (
     <div className="" id="portfolio">
       <div className="container-fluid px-4 px-lg-5">
@@ -26,7 +27,20 @@ const Projects = () => {
                   </div>
                   <div className="projectText">
                     <h3>{project.name}</h3>
-                    <p>{project.desc}</p>
+                    <p>
+                      {more === project.id
+                        ? project.desc
+                        : `${project.desc.slice(0, 100).concat('  ')}`}
+
+                      <span
+                        style={{ color: "darkgray" }}
+                        onClick={() =>
+                          setMore(more === project.id ? -1 : project.id)
+                        }
+                      >
+                        {more === project.id ? "less" : "more..."}
+                      </span>
+                    </p>
                   </div>
                   <div className="projectBottom">
                     <a
