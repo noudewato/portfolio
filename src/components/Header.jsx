@@ -9,7 +9,7 @@ const Header = () => {
       >
         <div className="container px-4 px-lg-5">
           <a className="navbar-brand" href="#page-top">
-            Fawaz
+            Fawaz <span style={{color:"#f4623a"}}>Noudewato</span>
           </a>
           <button
             className="navbar-toggler navbar-toggler-right"

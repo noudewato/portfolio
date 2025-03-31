@@ -6,9 +6,23 @@ const About = () => {
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 justify-content-center">
           <div className="col-lg-12 text-center">
-            <h2 className="text-white mt-0">About Me</h2>
-            <hr className="divider" style={{color:"#f4623a"}} />
-            <p className="text-white-75 mb-4 fw-bold">
+            <h2
+              className="text-white mt-0"
+              data-aos="zoom-in"
+              data-aos-duration="600"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+            >
+              About Me
+            </h2>
+            <hr className="divider" style={{ color: "#f4623a" }} />
+            <p
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+              className="text-white-75 mb-4 fw-bold"
+            >
               A dedicated and results-driven Software Developer with expertise
               in React.js, React Native, Node.js, and .NET clean architecture.
               Adept at creating scalable user-friendly applications and managing

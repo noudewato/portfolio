@@ -1,13 +1,17 @@
-import React from 'react'
+import React from "react";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <header className="masthead" id='home'>
+    <header className="masthead" id="home">
       <div className="container px-4 px-lg-5 h-100">
         <div className="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
           <div className="col-lg-8 align-self-end">
-            <h1 className="text-white font-weight-bold">
+            <h1
+              className="text-white font-weight-bold"
+              data-aos="fade-down"
+              data-aos-duration="600"
+            >
               Fawaz <span style={{ color: "#f4623a" }}>Noudewato</span>
             </h1>
             <hr className="divider" />
@@ -39,6 +43,6 @@ const Hero = () => {
       </div>
     </header>
   );
-}
+};
 
-export default Hero
+export default Hero;
