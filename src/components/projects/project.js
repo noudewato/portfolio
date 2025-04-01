@@ -71,4 +71,12 @@ export const MyProjects = [
     gitLink: "",
     demoLink: "",
   },
+  {
+    id: 10,
+    name: "Maman E-commerce",
+    desc: "Maman E-commerce is a powerful MERN (MongoDB, Express.js, React.js, and Node.js) Stack-based e-commerce solution designed to streamline online shopping experiences. Key features include Product Management, Order Processing, Secure Billing & Payments, Responsive Design, Real-Time Updates, and Scalability. It provides a seamless, user-friendly shopping experience for both customers and store owners.",
+    image: "/assets/img/maman.png",
+    gitLink: "",
+    demoLink: "",
+  }
 ];
