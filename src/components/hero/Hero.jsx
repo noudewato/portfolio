@@ -12,7 +12,7 @@ const Hero = () => {
               data-aos="fade-down"
               data-aos-duration="600"
             >
-              Fawaz <span style={{ color: "#f4623a" }}>Noudewato</span>
+              Creative Web <span style={{ color: "#f4623a" }}>Solutions</span>
             </h1>
             <hr className="divider" />
           </div>
