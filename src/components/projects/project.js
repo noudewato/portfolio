@@ -57,11 +57,11 @@ export const MyProjects = [
   },
   {
     id: 8,
-    name: "XSOFT",
-    desc: "Xsoft Tech Lead is a company specializing in software design, web development, CCTV installation, and data analytics. They provide innovative technology solutions tailored to businesses and individuals, ensuring high-quality software and web applications, robust security systems, and advanced data-driven insights. Their expertise spans across custom software development, website design, surveillance solutions, and big data analytics, helping clients optimize operations and enhance digital security.",
+    name: "Brightgate Technologies",
+    desc: "Brightgate Technologies Tech Lead is a company specializing in software design, web development, CCTV installation, and data analytics. They provide innovative technology solutions tailored to businesses and individuals, ensuring high-quality software and web applications, robust security systems, and advanced data-driven insights. Their expertise spans across custom software development, website design, surveillance solutions, and big data analytics, helping clients optimize operations and enhance digital security.",
     image: "/assets/img/xsoft.png",
     gitLink: "",
-    demoLink: "https://xsoftbizmanager.vercel.app/",
+    demoLink: "https://brightgatetechnologies.com/",
   },
   {
     id: 9,
@@ -78,5 +78,13 @@ export const MyProjects = [
     image: "/assets/img/maman.png",
     gitLink: "",
     demoLink: "",
+  },
+  {
+    id: 10,
+    name: "Yahweh Property Management",
+    desc: "",
+    image: "/assets/img/yahweh.png",
+    gitLink: "",
+    demoLink: "https://yahwehpropertymanagement.com/",
   }
 ];
