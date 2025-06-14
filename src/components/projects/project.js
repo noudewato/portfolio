@@ -80,9 +80,9 @@ export const MyProjects = [
     demoLink: "",
   },
   {
-    id: 10,
+    id: 11,
     name: "Yahweh Property Management",
-    desc: "",
+    desc: "Yahweh Property Management is a leading real estate management company in Ghana, dedicated to transforming the property landscape through exceptional management services. Their mission is to maximize value for property owners while ensuring tenants enjoy comfortable, well-maintained living spaces. With a focus on client satisfaction, integrity, and professional excellence, Yahweh Property Management has grown to become one of the most trusted names in the industry.",
     image: "/assets/img/yahweh.png",
     gitLink: "",
     demoLink: "https://yahwehpropertymanagement.com/",
